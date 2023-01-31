@@ -1,5 +1,7 @@
 # Lab Report Two for CSE 15L
 
+
+
 ## Part 1 : Making a String Server
 
 ### Code for the string sever program written by me -
@@ -45,15 +47,33 @@ class StringServer {
 
 ```
 ### Screenshots using the String Server 
+
 ![](TerminalWindow.png)
+- An object of handler class is created along with a page having a local host.
+
+#### First Sceenshot
 ![](StringServer1.png)
+- Handle Request method of the handler class is used
+- The method mainly tackles with the request with the request to the server using the url
+- Upon running the method the value of the vairable text is changed each time to aquire the value of the new text to be added
+- In this case, it aquired the value of 'First line' and printed it out on the page
+
+#### Second Sceenshot
 ![](StringServer2.png)
+- Handle Request method of the handler class is used
+- The method mainly tackles with the request with the request to the server using the url
+- Upon running the method the value of the vairable text is changed each time to aquire the value of the new text to be added
+- In this case, it aquired the value - "Second line" and printed it out on the next line.
 
 ***
 
+
+
+
+
 ## Part 2 : Listing a bug and its resolution 
 
-### Failure inducing J unit 
+### Failure inducing J unit test
 ```
 @Test
   public void testReversed_improved() {
@@ -64,7 +84,7 @@ class StringServer {
   }
 ```
 
-### Non- Failure inducing J unit 
+### Non - Failure inducing J unit test
 ```
 @Test
   public void testReversed() {
@@ -75,11 +95,10 @@ class StringServer {
 
 ### Symptoms - outputs of j unit tests
 
-#### First Sceenshot
+#### Symptom 1 - Successful run of the default test
 ![](Symptom1.png)
-- Handle request function of the 
 
-#### Second Screenshot
+#### Symptom 2 - Unsuccesful error producing run of the improved J unit test
 ![](Symptom2.png)
 
 ### Faulty code 
@@ -104,13 +123,17 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
  ```
-
-
-
+ 
+ The original code had Bugs as it was assigning the values from new array to the old array and returning the old one. The new array being an empty Integer array had all its values as default i.e. 0 hence producing a buggy output. I fixed it by switching the variables and assigning the values in reverse order from the old array to the new one of the same length and then returning the new one.
+ 
 ***
 
+
+
+
+
 ## Part 3 : Learning from week 2 and week 3 Lab 
-- One of the major takewayas from the lab work of the past two weeks was the newly acquired excellence in basic junit testing which will really help us out in any project work and even in reasearch to make sure our code has the utmost quality.
+- One of the major takewayas from the lab work of the past two weeks was the newly acquired excellence in basic junit testing which will really help us out in any project work and even in reasearch to make sure our code has the utmost quality. I also learnt about the bash operations (which I didn't know about) which have fostered my growth as an efficient programmer and increased my productivity.
 
 ***
 ***
