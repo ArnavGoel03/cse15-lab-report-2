@@ -25,8 +25,8 @@
 ```
 
 ### Symptoms - outputs of j unit tests
-![][Symptom1.png]
-![][https://github.com/ArnavGoel03/cse15-lab-report-2/blob/main/Symptom2.png]
+![](Symptom1.png)
+![](Symptom2.png)
 
 ### Faulty code 
 ```
