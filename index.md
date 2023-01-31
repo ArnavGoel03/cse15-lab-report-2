@@ -44,7 +44,9 @@ class StringServer {
 }
 
 ```
-### Screenshot using the 
+### Screenshots using the String Server 
+![](StringServer1.png)
+![](StringServer2.png)
 
 ***
 
