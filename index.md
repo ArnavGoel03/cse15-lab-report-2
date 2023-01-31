@@ -132,7 +132,7 @@ static int[] reversed(int[] arr) {
 
 
 
-## Part 3 : Learning from week 2 and week 3 Lab 
+## Part 3 : Learnings from week 2 and week 3 Lab 
 - One of the major takewayas from the lab work of the past two weeks was the newly acquired excellence in basic junit testing which will really help us out in any project work and even in reasearch to make sure our code has the utmost quality. I also learnt about the bash operations (which I didn't know about) which have fostered my growth as an efficient programmer and increased my productivity.
 
 ***
