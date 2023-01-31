@@ -45,6 +45,7 @@ class StringServer {
 
 ```
 ### Screenshots using the String Server 
+![](TerminalWindow.png)
 ![](StringServer1.png)
 ![](StringServer2.png)
 
@@ -73,7 +74,12 @@ class StringServer {
 ```
 
 ### Symptoms - outputs of j unit tests
+
+#### First Sceenshot
 ![](Symptom1.png)
+- Handle request function of the 
+
+#### Second Screenshot
 ![](Symptom2.png)
 
 ### Faulty code 
