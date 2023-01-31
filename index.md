@@ -8,7 +8,8 @@
 ### Non- Failure inducing J unit 
 ### Symptoms - outputs of j unit tests
 ### Faulty code 
-`// Returns a *new* array with all the elements of the input array in reversed
+```
+// Returns a *new* array with all the elements of the input array in reversed
   // order
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -16,7 +17,8 @@
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
-  }`
+  }
+ ```
 ### Correct Code
 
 
